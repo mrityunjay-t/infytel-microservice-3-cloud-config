@@ -9,6 +9,7 @@ The cloud configurations are fetched using bootstrap.properties from Git Reposit
 Configurations can be updated in runtime:
   1. Add actuator-refresh dependency in pom.xml file for the MS in which we want to update configs in runtime
   2. Send a post request to http://URL/actuator/refresh
+    
     Example for CustomerMS in this project:
     A POST request to: http:localhost:8200/actuator/refresh
 
