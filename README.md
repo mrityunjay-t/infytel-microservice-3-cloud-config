@@ -11,7 +11,7 @@ Configurations can be updated in runtime:
   2. Send a post request to http://URL/actuator/refresh
     
     Example for CustomerMS in this project:
-    A POST request to: http:localhost:8200/actuator/refresh
+    A POST request to: http://localhost:8200/actuator/refresh
 
 We have four microservices CallDetailsMS, CustomerMS, FriendsFamilyMS and PlanMS.
 
